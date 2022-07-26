@@ -23,7 +23,7 @@ for i in dados:
     if i['valor']>soma_media/cont:
         cont2 +=1
 
-print(maior, menor, soma_media, cont,soma_media/cont,cont2)
+#print(maior, menor, soma_media, cont,soma_media/cont,cont2)
 print("O maior valor de faturamento no mes foi: R$",maior,)
 print("O menor valor de faturamento no mes foi: R$",menor)
 print(cont2,"dia(s) no mes teve/tiveram o faturamento maior que a média")
